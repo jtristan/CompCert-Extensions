@@ -1,3 +1,15 @@
+(***********************************************************************)
+(*                                                                     *)
+(*                        Compcert Extensions                          *)
+(*                                                                     *)
+(*                       Jean-Baptiste Tristan                         *)
+(*                                                                     *)
+(*  All rights reserved.  This file is distributed under the terms     *)
+(*  described in file ../../LICENSE.                                   *)
+(*                                                                     *)
+(***********************************************************************)
+
+
 (** Graph implementation used both for cfgs and dep graphs*)
 
 module type GraphContent =

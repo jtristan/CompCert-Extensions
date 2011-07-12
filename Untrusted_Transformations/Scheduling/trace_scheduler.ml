@@ -1,3 +1,15 @@
+(***********************************************************************)
+(*                                                                     *)
+(*                        Compcert Extensions                          *)
+(*                                                                     *)
+(*                       Jean-Baptiste Tristan                         *)
+(*                                                                     *)
+(*  All rights reserved.  This file is distributed under the terms     *)
+(*  described in file ../../LICENSE.                                   *)
+(*                                                                     *)
+(***********************************************************************)
+
+
 
 let schedule_code code = 
   match Block_scheduler.schedule_code code with

@@ -1,3 +1,15 @@
+(***********************************************************************)
+(*                                                                     *)
+(*                        Compcert Extensions                          *)
+(*                                                                     *)
+(*                       Jean-Baptiste Tristan                         *)
+(*                                                                     *)
+(*  All rights reserved.  This file is distributed under the terms     *)
+(*  described in file ../../LICENSE.                                   *)
+(*                                                                     *)
+(***********************************************************************)
+
+
 (** Label Synchronizing : placing labels before trace validation *)
 
 Require Import Coqlib.

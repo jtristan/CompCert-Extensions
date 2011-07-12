@@ -1,3 +1,15 @@
+(***********************************************************************)
+(*                                                                     *)
+(*                        Compcert Extensions                          *)
+(*                                                                     *)
+(*                       Jean-Baptiste Tristan                         *)
+(*                                                                     *)
+(*  All rights reserved.  This file is distributed under the terms     *)
+(*  described in file ../../LICENSE.                                   *)
+(*                                                                     *)
+(***********************************************************************)
+
+
 type __ = Obj.t
 type expression =
     Op of Op.operation * Registers.reg CList.list
