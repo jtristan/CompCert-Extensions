@@ -1,0 +1,9 @@
+CompCert Extensions
+===================
+
+The directories 'Untrusted_Transformations' and 'Trusted_Validators' contain
+respectively OCaml implementation of optimizations and Coq formally verified
+translation validators that extend the Compcert compiler. 
+
+These files are not maintained anymore and are meant to be used as a source
+of code to extend Compcert. (It's a 'framework'.)
